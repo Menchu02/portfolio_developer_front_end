@@ -1,0 +1,43 @@
+:root {
+  --primary-white: #fff;
+  --primary-orange: #f9ab00;
+  --main-color: #ecc998;
+}
+
+/* NAVBAR */
+.logo {
+  width: 10rem;
+}
+.custom-navbar {
+  background-color: black;
+}
+/* MENU LINKS */
+
+nav a.nav-link {
+  font-weight: bold;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+  color: var(--main-color) !important;
+}
+nav ul li {
+  text-transform: uppercase;
+}
+.navbar-nav li {
+  margin: 10px;
+}
+.navbar-nav > li > a {
+  margin-right: 12px;
+  margin-left: 12px;
+  color: var(--primary-white);
+}
+.navbar-brand {
+  max-width: 276px;
+  padding: 0 !important;
+}
+.nav-item {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+.nav-item:hover {
+  transform: scale(1.1);
+}
