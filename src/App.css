@@ -4,14 +4,18 @@
   --main-color: #ecc998;
 }
 
-/* NAVBAR */
+/* **********************NAVBAR************************************ */
 .logo {
   width: 10rem;
+  margin-left: 50px;
 }
 .custom-navbar {
   background-color: black;
 }
-/* MENU LINKS */
+.navbar-nav {
+  margin-right: 50px;
+}
+/****************************** MENU LINKS****************************************** */
 
 nav a.nav-link {
   font-weight: bold;
@@ -40,4 +44,23 @@ nav ul li {
 }
 .nav-item:hover {
   transform: scale(1.1);
+}
+/*****************************HEADER ***********************************************/
+.header-wraper {
+  position: relative;
+  background: url(background-portfolio2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.header-paragraph {
 }
