@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../../assets/logo4.png';
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
@@ -23,24 +24,28 @@ export default function Navbar() {
         <div className='collapse navbar-collapse' id='navbarSupportedContent'>
           <ul className='navbar-nav ms-auto'>
             <li className='nav-item active'>
-              <a className='nav-link' href='#'>
-                Inicio <span className='sr-only'></span>
-              </a>
+              <Link to={'/'}>
+                <a className='nav-link'>
+                  Inicio <span className='sr-only'></span>
+                </a>
+              </Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='#'>
-                Sobre mi
-              </a>
+              <Link to={'/about'}>
+                <a className='nav-link'>Sobre mi</a>
+              </Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='#'>
-                portfolio
-              </a>
+              <Link to={'/portfolio'}>
+                {' '}
+                <a className='nav-link'>portfolio</a>
+              </Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='#'>
-                contacto
-              </a>
+              <Link to={'/contact'}>
+                {' '}
+                <a className='nav-link'>contacto</a>
+              </Link>
             </li>
           </ul>
         </div>

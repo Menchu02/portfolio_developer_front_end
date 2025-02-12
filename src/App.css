@@ -43,7 +43,7 @@ nav ul li {
   transition: transform 0.3s ease;
 }
 .nav-item:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 /*****************************HEADER ***********************************************/
 .header-wraper {
@@ -64,6 +64,7 @@ nav ul li {
 }
 
 /* *****************************SOBRE MI ***********************************************/
-.text-center {
-  border-color: var(--main-color);
+.frontend {
+  font-weight: bold;
+  font-size: 18px;
 }
