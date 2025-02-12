@@ -19,6 +19,16 @@ export default function Contacto() {
                 <strong>Teléfono:</strong> 699037483
               </ListGroup.Item>
               <ListGroup.Item>
+                <strong href='https://www.linkedin.com/in/carmen-blanco-delgado-892711233/'>
+                  Linkedin:
+                </strong>
+              </ListGroup.Item>
+              <ListGroup.Item>
+                <strong href='https://www.linkedin.com/in/carmen-blanco-delgado-892711233/'>
+                  Github:
+                </strong>
+              </ListGroup.Item>
+              <ListGroup.Item>
                 <strong>Ubicación:</strong> Barcelona
               </ListGroup.Item>
             </ListGroup>

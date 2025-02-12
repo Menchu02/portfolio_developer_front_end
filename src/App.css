@@ -21,10 +21,14 @@ nav a.nav-link {
   font-weight: bold;
   letter-spacing: 0.6px;
   cursor: pointer;
+  list-style: none;
+
   color: var(--main-color) !important;
 }
 nav ul li {
   text-transform: uppercase;
+  list-style: none;
+  list-style: none;
 }
 .navbar-nav li {
   margin: 10px;
@@ -45,6 +49,10 @@ nav ul li {
 .nav-item:hover {
   transform: scale(1.2);
 }
+.nav-link {
+  list-style: none !important;
+  display: inline-flex !important;
+}
 /*****************************HEADER ***********************************************/
 .header-wraper {
   position: relative;
@@ -62,9 +70,38 @@ nav ul li {
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.header-h1 {
+  margin-top: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 /* *****************************SOBRE MI ***********************************************/
 .frontend {
   font-weight: bold;
   font-size: 18px;
 }
+.logos {
+  margin-bottom: 25px;
+}
+
+/* .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+} */
+
+/* *****************************PORTFOLIO ***********************************************/
+
+.g-4 {
+  display: flex;
+  gap: 50px;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin-top: 100px !important;
+}
+
+/* .card {
+  width: 250px;
+} */

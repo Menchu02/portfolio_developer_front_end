@@ -49,6 +49,13 @@ export default function Sobremi() {
               <img src={logoSpring} alt='logoSpring' />
               <img src={logoScrum} alt='logoScrum' />
             </div>
+
+            <p className='lead'>Estoy aprendiendo:</p>
+            <p>Actualmente estoy realizando un curso en Udemy de Wordpress</p>
+            <p>
+              Sigo enfocada en React centrándome en el estudio de todos sus
+              Hooks
+            </p>
           </Col>
         </Row>
       </Container>
