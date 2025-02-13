@@ -2,10 +2,12 @@
   "name": "movie-app-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http:/Menchu02.github.oi/portfolio_developer_front_end",
   "dependencies": {
     "@testing-library/react": "^14.3.1",
     "bootstrap": "^5.3.3",
     "cra-template": "1.2.0",
+    "gh-pages": "^6.3.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.9",
     "react-dom": "^18.2.0",
@@ -17,6 +19,8 @@
     "web-vitals": "^4.2.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
