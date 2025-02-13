@@ -49,7 +49,7 @@ export default function Navbar() {
             </li>
             <li className='nav-item'>
               <Link to='/portfolio' className='nav-link' onClick={toggleMenu}>
-                Portfolio
+                Porfolio
               </Link>
             </li>
             <li className='nav-item'>
