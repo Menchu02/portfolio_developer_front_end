@@ -12,7 +12,7 @@ export default function Portfolio() {
       id: 1,
       title: 'Movie App',
       description:
-        'App web de gestión de películas consumiendo Api.Funciones Crear, añadir, editar y eliminar',
+        'App web de gestión de películas consumiendo Api.Crea, añade, edita y elimina películas',
       imageUrl: photoCard1,
       altText: 'Imagen del Proyecto 1',
       link: 'https://menchu02.github.io/movie-app-main/',
@@ -23,7 +23,7 @@ export default function Portfolio() {
       id: 2,
       title: 'Shopping List',
       description:
-        'App web lista de la compra. Añade, cambia o elimina los productos de tu lista',
+        'App web lista de la compra. Añade, cambia o elimina los productos de tu lista para no olvidarlos',
       imageUrl: photoCard4,
       altText: 'Imagen del Proyecto 3',
       link: 'https://menchu02.github.io/shopping-list/',
@@ -34,7 +34,7 @@ export default function Portfolio() {
       id: 3,
       title: 'Dilámica',
       description:
-        'App web gestión de cursos en una escuela online.Crea, añade, edita y elimina cursos',
+        'App web gestión de cursos en una escuela online consumiendo Api.Crea, añade, edita y elimina cursos',
       imageUrl: photoCard2,
       altText: 'Imagen del Proyecto 2',
       link: 'https://menchu02.github.io/Dilamica-web/',
@@ -56,6 +56,7 @@ export default function Portfolio() {
   ];
   return (
     <div>
+      <h1 className='header-portfolio'>Mis proyectos:</h1>
       <Row xs={1} md={5} className='g-4  '>
         {projects.map((project) => (
           <Col key={project.id}>

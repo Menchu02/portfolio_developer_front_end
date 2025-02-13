@@ -12,6 +12,8 @@ import logoScrum from '../../assets/scrum.png';
 import logoSpring from '../../assets/springboot.png';
 import logoBootstrap from '../../assets/bootstrap.png';
 export default function Sobremi() {
+  const cvLink =
+    'https://drive.google.com/uc?export=download&id=19T45KaQh1hCy4qwSsP3prcCZ79yC7hBg';
   return (
     <div className='container'>
       <Container className='my-5 container'>
@@ -51,11 +53,16 @@ export default function Sobremi() {
             </div>
 
             <p className='lead'>Estoy aprendiendo:</p>
-            <p>Actualmente estoy realizando un curso en Udemy de Wordpress</p>
+            <p>Actualmente estoy realizando un curso en Wordpress</p>
             <p>
               Sigo enfocada en aprender en profundidad React, centrándome en el
               estudio de sus Hooks
             </p>
+            <div className='cv-container'>
+              <a href={cvLink} download='CarmenBlancoDelgado.pdf'>
+                <button className='cv-button'>Descargar CV</button>
+              </a>
+            </div>
           </Col>
         </Row>
       </Container>
