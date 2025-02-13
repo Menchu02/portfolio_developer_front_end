@@ -13,8 +13,8 @@ import logoSpring from '../../assets/springboot.png';
 import logoBootstrap from '../../assets/bootstrap.png';
 export default function Sobremi() {
   return (
-    <div>
-      <Container className='my-5'>
+    <div className='container'>
+      <Container className='my-5 container'>
         <Row className='align-items-center'>
           <Col md={4} className='text-center'>
             <Image
@@ -53,8 +53,8 @@ export default function Sobremi() {
             <p className='lead'>Estoy aprendiendo:</p>
             <p>Actualmente estoy realizando un curso en Udemy de Wordpress</p>
             <p>
-              Sigo enfocada en React centrándome en el estudio de todos sus
-              Hooks
+              Sigo enfocada en aprender en profundidad React, centrándome en el
+              estudio de sus Hooks
             </p>
           </Col>
         </Row>

@@ -9,7 +9,7 @@ export default function Header() {
           <Typewriter
             className='typerwriter'
             options={{
-              strings: ['Bienvenidxs a mi portfolio '],
+              strings: ['Bienvenidx a mi portfolio :) '],
               autoStart: true,
               loop: true,
               delay: 100,
