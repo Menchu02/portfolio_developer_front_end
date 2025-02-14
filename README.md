@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+## Autor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Carmen Blanco Delgado
 
-## Available Scripts
+# Portfolio Personal -
 
-In the project directory, you can run:
+Este repositorio contiene el código fuente de mi portfolio personal como desarrolladora web. El portfolio ha sido desarrollado utilizando React y Bootstrap, y tiene como objetivo mostrar mis habilidades y proyectos
 
-### `npm start`
+## Descripción General
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+El portfolio es una aplicación web de una sola página (SPA) construida con React para la gestión de componentes y enrutamiento, y Bootstrap para el diseño responsive y la estructura de la interfaz de usuario.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Componentes
 
-### `npm test`
+El portfolio se compone de los siguientes componentes principales:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1.  **Navbar:** Barra de navegación principal que permite la navegación entre las diferentes secciones del portfolio.
+2.  **Header:** Cabecera principal
+3.  **Sobre mí:** Sección con información personal y profesional sobre mí, mis habilidades y mi experiencia.Descarga de mi cv
+4.  **Portfolio:** Sección donde se muestran mis proyectos más destacados, con descripciones y enlaces a los mismos.
+5.  **Contacto:** Formulario de contacto para que los visitantes puedan comunicarse conmigo.
 
-### `npm run build`
+## Tecnologías Utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React:** Librería de JavaScript para la construcción de interfaces de usuario interactivas y dinámicas.
+- **Bootstrap:** Framework CSS para el diseño responsive y la creación de interfaces de usuario consistentes y modernas.
+- **React Router:** Librería para la gestión de rutas y la navegación en aplicaciones React.
+- **React script** Librería para la gestión de rutas y la navegación en aplicaciones React.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Cómo ejecutar el proyecto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1.  Clona el repositorio: `git clone https://github.com/TuNombreDeUsuario/NombreDelRepositorio.git`
+2.  Instala las dependencias: `npm install`
+3.  Inicia el servidor de desarrollo: `npm start`
+4.  Abre el navegador y visita `http://localhost:3000`

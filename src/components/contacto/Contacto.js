@@ -10,7 +10,7 @@ import {
 
 export default function Contacto() {
   return (
-    <Container className='mt-5 contacto-container'>
+    <Container className='mt-5 contacto-container container'>
       <Row className='justify-content-center'>
         <Col md={6} className='text-center'>
           <h2>Contáctame:</h2>
