@@ -151,7 +151,7 @@ nav ul li {
   font-size: 18px;
 }
 .card-body {
-  background-color: var(--main-color);
+  background-color: var(--primary-orange);
 }
 .card-button {
   background-color: black !important;

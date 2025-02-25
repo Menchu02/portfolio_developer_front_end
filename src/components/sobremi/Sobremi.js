@@ -13,7 +13,7 @@ import logoSpring from '../../assets/springboot.png';
 import logoBootstrap from '../../assets/bootstrap.png';
 export default function Sobremi() {
   const cvLink =
-    'https://drive.google.com/uc?export=download&id=19T45KaQh1hCy4qwSsP3prcCZ79yC7hBg';
+    'https://drive.google.com/uc?export=download&id=1e7t844fM5UXFh8mI3ZsrnAhmKKSWJZZ7';
   return (
     <div className='container'>
       <Container className='my-5 container'>
@@ -35,8 +35,9 @@ export default function Sobremi() {
               desarrollo <span className='frontend'>Front-end</span>. Amo crear
               proyectos y explorar las posibilidades del código. Especializada
               en React js, estoy siempre dispuesta a aprender y crecer en el
-              mundo del desarrollo. Me considero trabajadora, adaptaiva y amante
-              de los retos. Disfruto aprendiendo y trabajando con personas.
+              mundo del desarrollo.También he trabajado con Vue.js y Angular. Me
+              considero trabajadora, adaptaiva y amante de los retos. Disfruto
+              aprendiendo y trabajando con personas.
             </p>
             <p className='lead'>Conocimientos:</p>
             <div className='logos'>
