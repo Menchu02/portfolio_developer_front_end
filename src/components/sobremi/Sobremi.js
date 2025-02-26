@@ -54,7 +54,10 @@ export default function Sobremi() {
             </div>
 
             <p className='lead'>Estoy aprendiendo:</p>
-            <p>Actualmente estoy realizando un curso en Wordpress</p>
+            <p>
+              Actualmente estoy desarrollando un nuevo proyecto con TypeScript
+              en React
+            </p>
             <p>
               Sigo enfocada en aprender en profundidad React, centrándome en el
               estudio de sus Hooks
