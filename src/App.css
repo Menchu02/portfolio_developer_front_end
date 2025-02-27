@@ -59,10 +59,10 @@ nav ul li {
 /*****************************HEADER ***********************************************/
 .header-wraper {
   position: relative;
-  background: url(background-portfolio2.jpg);
+  background: url(pantalla2.jpg);
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
