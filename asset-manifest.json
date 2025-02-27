@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio_developer_front_end/static/css/main.69ca005c.css",
+    "main.css": "/portfolio_developer_front_end/static/css/main.9a99517b.css",
     "main.js": "/portfolio_developer_front_end/static/js/main.31b85193.js",
     "static/js/488.40603ace.chunk.js": "/portfolio_developer_front_end/static/js/488.40603ace.chunk.js",
     "static/media/sobre mi.png": "/portfolio_developer_front_end/static/media/sobre mi.e39cc46d674f5098615f.png",
-    "static/media/background-portfolio2.jpg": "/portfolio_developer_front_end/static/media/background-portfolio2.b0271151addd14377791.jpg",
+    "static/media/pantalla2.jpg": "/portfolio_developer_front_end/static/media/pantalla2.488d74083379e8382f0b.jpg",
     "static/media/cardmovieapp.png": "/portfolio_developer_front_end/static/media/cardmovieapp.8187fbc275f00e8edc40.png",
     "static/media/cursos.png": "/portfolio_developer_front_end/static/media/cursos.4422304170b7bfcdb7bc.png",
     "static/media/eccomerce-app.png": "/portfolio_developer_front_end/static/media/eccomerce-app.1f021f8d9e44f61b181b.png",
     "static/media/shopping.png": "/portfolio_developer_front_end/static/media/shopping.2a2e390c4eb968ac1f56.png",
     "static/media/logo4.png": "/portfolio_developer_front_end/static/media/logo4.4a1340ce0846eaf60edb.png",
     "index.html": "/portfolio_developer_front_end/index.html",
-    "main.69ca005c.css.map": "/portfolio_developer_front_end/static/css/main.69ca005c.css.map",
+    "main.9a99517b.css.map": "/portfolio_developer_front_end/static/css/main.9a99517b.css.map",
     "main.31b85193.js.map": "/portfolio_developer_front_end/static/js/main.31b85193.js.map",
     "488.40603ace.chunk.js.map": "/portfolio_developer_front_end/static/js/488.40603ace.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.69ca005c.css",
+    "static/css/main.9a99517b.css",
     "static/js/main.31b85193.js"
   ]
 }
