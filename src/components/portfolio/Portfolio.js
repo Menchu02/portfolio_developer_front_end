@@ -30,29 +30,29 @@ export default function Portfolio() {
       logo: logoGithub,
       linkGithub: 'https://github.com/Menchu02/shopping-list',
     },
-    {
-      id: 3,
-      title: 'Dilámica',
-      description:
-        'App web gestión de cursos en una escuela online consumiendo Api.Crea, añade, edita y elimina cursos',
-      imageUrl: photoCard2,
-      altText: 'Imagen del Proyecto 2',
-      link: 'https://menchu02.github.io/Dilamica-web/',
-      logo: logoGithub,
-      linkGithub: 'https://github.com/Menchu02/Dilamica-web',
-    },
+    // {
+    //   id: 3,
+    //   title: 'Dilámica',
+    //   description:
+    //     'App web gestión de cursos en una escuela online consumiendo Api.Crea, añade, edita y elimina cursos',
+    //   imageUrl: photoCard2,
+    //   altText: 'Imagen del Proyecto 2',
+    //   link: 'https://menchu02.github.io/Dilamica-web/',
+    //   logo: logoGithub,
+    //   linkGithub: 'https://github.com/Menchu02/Dilamica-web',
+    // },
 
-    {
-      id: 4,
-      title: 'E-commerce',
-      description:
-        'App web tienda online condumiendo Api.Listado proeductos, rebajas, formularios',
-      imageUrl: photoCard3,
-      altText: 'Imagen del Proyecto 3',
-      link: 'https://menchu02.github.io/e-commerce/',
-      logo: logoGithub,
-      linkGithub: 'https://github.com/Menchu02/e-commerce',
-    },
+    // {
+    //   id: 4,
+    //   title: 'E-commerce',
+    //   description:
+    //     'App web tienda online condumiendo Api.Listado proeductos, rebajas, formularios',
+    //   imageUrl: photoCard3,
+    //   altText: 'Imagen del Proyecto 3',
+    //   link: 'https://menchu02.github.io/e-commerce/',
+    //   logo: logoGithub,
+    //   linkGithub: 'https://github.com/Menchu02/e-commerce',
+    // },
   ];
   return (
     <div>
