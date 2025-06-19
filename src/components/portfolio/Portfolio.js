@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, Row, Col, Button } from 'react-bootstrap';
 import photoCard1 from '../../assets/cardmovieapp.png';
 import photoCard2 from '../../assets/cursos.png';
-import photoCard3 from '../../assets/eccomerce-app.png';
+import photoCard3 from '../../assets/Captura de pantalla 2025-06-19 101211.png';
 import photoCard4 from '../../assets/shopping.png';
 import logoGithub from '../../assets/github.png';
 
@@ -19,8 +19,20 @@ export default function Portfolio() {
       logo: logoGithub,
       linkGithub: 'https://github.com/Menchu02/movie-app-main',
     },
+
     {
       id: 2,
+      title: 'Shopping Cart',
+      description:
+        'Carrito de compras para tienda online. Navega por los articulos, añádelos a tu carrito, y gestiona',
+      imageUrl: photoCard3,
+      altText: 'Imagen del Proyecto 3',
+      link: 'https://menchu02.github.io/shopping-cart/',
+      logo: logoGithub,
+      linkGithub: 'https://menchu02.github.io/shopping-cart/',
+    },
+    {
+      id: 3,
       title: 'Shopping List',
       description:
         'App web lista de la compra. Añade, cambia o elimina los productos de tu lista para no olvidarlos',
@@ -28,19 +40,8 @@ export default function Portfolio() {
       altText: 'Imagen del Proyecto 3',
       link: 'https://menchu02.github.io/shopping-list/',
       logo: logoGithub,
-      linkGithub: 'https://github.com/Menchu02/shopping-list',
+      linkGithub: 'https://github.com/Menchu02/shopping-cart',
     },
-    // {
-    //   id: 3,
-    //   title: 'Dilámica',
-    //   description:
-    //     'App web gestión de cursos en una escuela online consumiendo Api.Crea, añade, edita y elimina cursos',
-    //   imageUrl: photoCard2,
-    //   altText: 'Imagen del Proyecto 2',
-    //   link: 'https://menchu02.github.io/Dilamica-web/',
-    //   logo: logoGithub,
-    //   linkGithub: 'https://github.com/Menchu02/Dilamica-web',
-    // },
 
     // {
     //   id: 4,
