@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, Row, Col, Button } from 'react-bootstrap';
 import photoCard1 from '../../assets/cardmovieapp.png';
 import photoCard2 from '../../assets/cursos.png';
-import photoCard3 from '../../assets/Captura de pantalla 2025-06-19 101211.png';
+import photoCard3 from '../../assets/carrito.png';
 import photoCard4 from '../../assets/shopping.png';
 import logoGithub from '../../assets/github.png';
 
