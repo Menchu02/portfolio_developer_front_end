@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio_developer_front_end/static/css/main.8438c1cb.css",
-    "main.js": "/portfolio_developer_front_end/static/js/main.a8f06e9a.js",
+    "main.css": "/portfolio_developer_front_end/static/css/main.64597063.css",
+    "main.js": "/portfolio_developer_front_end/static/js/main.36177d65.js",
     "static/js/488.40603ace.chunk.js": "/portfolio_developer_front_end/static/js/488.40603ace.chunk.js",
     "static/media/sobre mi.png": "/portfolio_developer_front_end/static/media/sobre mi.e39cc46d674f5098615f.png",
     "static/media/pantalla2.jpg": "/portfolio_developer_front_end/static/media/pantalla2.488d74083379e8382f0b.jpg",
+    "static/media/photo-jesus.png": "/portfolio_developer_front_end/static/media/photo-jesus.4e409606234545faffa0.png",
+    "static/media/photo-sandalia.png": "/portfolio_developer_front_end/static/media/photo-sandalia.333d6c1c996ba85bfcf4.png",
     "static/media/cardmovieapp.png": "/portfolio_developer_front_end/static/media/cardmovieapp.8187fbc275f00e8edc40.png",
-    "static/media/carrito.png": "/portfolio_developer_front_end/static/media/carrito.84db2e80993746274b9a.png",
-    "static/media/cursos.png": "/portfolio_developer_front_end/static/media/cursos.4422304170b7bfcdb7bc.png",
     "static/media/shopping.png": "/portfolio_developer_front_end/static/media/shopping.2a2e390c4eb968ac1f56.png",
     "static/media/logoCarmen.png": "/portfolio_developer_front_end/static/media/logoCarmen.5e281eee3e643aa78130.png",
     "index.html": "/portfolio_developer_front_end/index.html",
-    "main.8438c1cb.css.map": "/portfolio_developer_front_end/static/css/main.8438c1cb.css.map",
-    "main.a8f06e9a.js.map": "/portfolio_developer_front_end/static/js/main.a8f06e9a.js.map",
+    "main.64597063.css.map": "/portfolio_developer_front_end/static/css/main.64597063.css.map",
+    "main.36177d65.js.map": "/portfolio_developer_front_end/static/js/main.36177d65.js.map",
     "488.40603ace.chunk.js.map": "/portfolio_developer_front_end/static/js/488.40603ace.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8438c1cb.css",
-    "static/js/main.a8f06e9a.js"
+    "static/css/main.64597063.css",
+    "static/js/main.36177d65.js"
   ]
 }
