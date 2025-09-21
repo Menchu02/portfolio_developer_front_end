@@ -29,14 +29,13 @@ export default function Sobremi() {
             />
           </Col>
           <Col md={8}>
-            <h2>Carmen Blanco Delgado</h2>
-            <p className='lead'>Desarrolladora Web</p>
+            {/* <h2>Carmen Blanco Delgado</h2>
+            <p className='lead'>Desarrolladora Web</p> */}
             <p>
-              ¡Hola! Soy una desarrolladora Full-stack apasionada en el
-              desarrollo <span className='frontend'>Front-end</span>. Amo crear
-              proyectos y explorar las posibilidades del código. Especializada
-              en React js, estoy siempre dispuesta a aprender y crecer en el
-              mundo del desarrollo.También he trabajado con Vue.js y Angular. Me
+              <span className='frontend'>¡Hola!</span> Soy Carmen Blanco,
+              desarrolladora Full-stack. Amo crear proyectos y explorar todas
+              sus posibilidades. Especializada en React JS, estoy siempre
+              dispuesta a aprender y crecer en el mundo del desarrollo. Me
               considero trabajadora, adaptaiva y amante de los retos. Disfruto
               aprendiendo y trabajando con personas.
             </p>
@@ -54,15 +53,11 @@ export default function Sobremi() {
               <img src={logoScrum} alt='logoScrum' />
             </div>
 
-            <p className='lead'>Estoy aprendiendo:</p>
             <p>
-              Actualmente estoy desarrollando un nuevo proyecto con TypeScript
-              en React
+              Actualmente estoy ampliando mis conocimientos en el desarrollo
+              back-end, aprendiendo Php y su framework Laravel.
             </p>
-            <p>
-              Sigo enfocada en aprender en profundidad React, centrándome en el
-              estudio de sus Hooks
-            </p>
+
             <div className='cv-container'>
               <a href={cvLink} download='CarmenBlancoDelgado.pdf'>
                 <button className='cv-button'>Descargar CV</button>

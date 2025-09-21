@@ -9,14 +9,14 @@
 
 /* **********************NAVBAR************************************ */
 .logo {
-  width: 10rem;
-  margin-left: 50px;
+  width: 5rem;
+  margin-left: 10px;
 }
 .custom-navbar {
   background-color: black;
 }
 .navbar-nav {
-  margin-right: 50px;
+  margin-right: 10px;
 }
 /****************************** MENU LINKS****************************************** */
 
@@ -86,7 +86,7 @@ nav ul li {
   margin-bottom: 25px;
 }
 .container {
-  margin-top: 110px;
+  /* margin-top: 110px; */
 }
 .cv-container {
   margin-top: 30px;
@@ -103,46 +103,41 @@ nav ul li {
 }
 
 /* *****************************PORTFOLIO ***********************************************/
-
-.g-4 {
-  display: flex;
-  gap: 50px;
-  flex-direction: row;
+/* 🚀 Corrección: no sobrescribas .g-4 */
+.portfolio-row {
+  margin-top: 50px !important;
   justify-content: center;
-  align-content: center;
-  margin-top: 100px !important;
+  padding: 0 40px;
 }
+
 .header-portfolio {
   display: flex;
   justify-content: center;
-
   margin-top: 15px;
 }
 
-.card-button {
-  border-radius: 10px !important;
-  border: none !important;
-  background-color: var(--main-color) !important;
-  color: black !important;
-}
 .card {
   transition: transform 0.3s ease;
   width: 18rem;
   height: 30rem;
-  margin-left: 55px;
+  margin-bottom: 50px;
 }
+
 .card-img {
   object-fit: cover;
   object-position: center;
-  height: 250px;
+  height: 100px;
 }
+
 .card:hover {
   transform: scale(1.05);
 }
+
 .card-link {
   text-decoration: none;
   color: inherit;
 }
+
 .card-title {
   font-weight: bold;
 }
@@ -150,24 +145,29 @@ nav ul li {
 .card-text {
   font-size: 18px;
 }
+
 .card-body {
-  background-color: var(--primary-orange);
+  /* espacio opcional */
 }
+
 .card-button {
   background-color: black !important;
   color: var(--primary-orange) !important;
   font-weight: bold !important;
   border-radius: 20px !important;
   padding: 10px !important;
+  border: none !important;
 }
+
 .button-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 40px;
-
-  /* *****************************CONTACTO ***********************************************/
 }
+
+/* *****************************CONTACTO ***********************************************/
+
 .custom-link {
   text-decoration: none;
   color: black;
@@ -177,9 +177,9 @@ nav ul li {
   color: var(--primary-orange);
 }
 .contacto-container {
-  border-radius: 50px;
+  /* border-radius: 50px; */
   padding: 20px;
-  background-color: var(--main-color) !important;
+  /* background-color: var(--main-color) !important; */
 }
 
 .contacto-lista li {
