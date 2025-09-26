@@ -14,7 +14,7 @@ import logoBootstrap from '../../assets/bootstrap.png';
 export default function Sobremi() {
   const cvLink =
     // 'https://drive.google.com/uc?export=download&id=1e7t844fM5UXFh8mI3ZsrnAhmKKSWJZZ7';
-    'https://drive.google.com/file/d/1aYQ34nzYwl185hmPGrRrvAiD5fQBykJu/view?usp=drive_link';
+    'https://drive.google.com/file/d/1vFn_YlSpoIcE-Cz-wGWbNLDOrvpXlcz1/view';
   return (
     <div className='container'>
       <Container className='my-5 container'>

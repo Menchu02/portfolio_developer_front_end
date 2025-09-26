@@ -12,12 +12,12 @@ export default function Portfolio() {
       id: 1,
       title: 'Porfolio fotografía',
       description:
-        'Sitio web de fotografía pensado para destacar la obra del artista, con galerías dinámicas para explorar sus proyectos.',
+        'Sitio web de fotografía pensado para destacar la obra del artista, con galerías dinámicas para explorar.',
       imageUrl: photoCard2,
       altText: 'Imagen del Proyecto 1',
       link: 'https://jesuscollgallardo.com',
       logo: logoGithub,
-      linkGithub: 'https://github.com/Menchu02/movie-app-main',
+      linkGithub: 'https://github.com/Menchu02/Photography-web',
     },
     {
       id: 2,
@@ -39,7 +39,7 @@ export default function Portfolio() {
       altText: 'Imagen del Proyecto 3',
       link: 'https://menchu02.github.io/shopping-cart/',
       logo: logoGithub,
-      linkGithub: 'https://menchu02.github.io/shopping-cart/',
+      linkGithub: 'https://github.com/Menchu02/shopping-cart',
     },
     {
       id: 4,
@@ -50,7 +50,7 @@ export default function Portfolio() {
       altText: 'Imagen del Proyecto 4',
       link: 'https://menchu02.github.io/shopping-list/',
       logo: logoGithub,
-      linkGithub: 'https://github.com/Menchu02/shopping-cart',
+      linkGithub: 'https://github.com/Menchu02/shopping-list',
     },
   ];
 
