@@ -5,6 +5,7 @@ import photoCard2 from '../../assets/photo-jesus.png';
 import photoCard3 from '../../assets/photo-sandalia.png';
 import photoCard4 from '../../assets/shopping.png';
 import logoGithub from '../../assets/github.png';
+import photoCard5 from '../../assets/laravel_foto.jpg';
 
 export default function Portfolio() {
   const projects = [
@@ -12,7 +13,7 @@ export default function Portfolio() {
       id: 1,
       title: 'Porfolio fotografía',
       description:
-        'Sitio web de fotografía pensado para destacar la obra del artista, con galerías dinámicas para explorar.',
+        'Sitio web de fotografía pensado para destacar la obra del artista, con galerías dinámicas (Front-end)',
       imageUrl: photoCard2,
       altText: 'Imagen del Proyecto 1',
       link: 'https://jesuscollgallardo.com',
@@ -23,7 +24,7 @@ export default function Portfolio() {
       id: 2,
       title: 'Movie App',
       description:
-        'App web de gestión de películas consumiendo Api. Crea, añade, edita y elimina películas.',
+        'App web de gestión de películas consumiendo Api. Crea, añade, edita y elimina películas (Front-end)',
       imageUrl: photoCard1,
       altText: 'Imagen del Proyecto 2',
       link: 'https://menchu02.github.io/movie-app-main/',
@@ -32,9 +33,21 @@ export default function Portfolio() {
     },
     {
       id: 3,
+      title: 'Laravel Crud',
+      description:
+        'CRUD de Laravel,filtrar por título y comprar mediante email.Genera reunión GoogleMeeting (Back-end)',
+      imageUrl: photoCard5,
+      altText: 'Imagen del Proyecto 3',
+      link: '',
+      logo: logoGithub,
+      linkGithub: 'https://github.com/Menchu02/laravel-crud-posts',
+    },
+
+    {
+      id: 4,
       title: 'Shopping Cart',
       description:
-        'Carrito de compras para tienda online. Navega por los artículos, añádelos a tu carrito y gestiona tus compras.',
+        'Carrito de compras para tienda online. Navega, añade a tu carrito y gestiona tus compras (Front-end)',
       imageUrl: photoCard3,
       altText: 'Imagen del Proyecto 3',
       link: 'https://menchu02.github.io/shopping-cart/',
@@ -42,10 +55,10 @@ export default function Portfolio() {
       linkGithub: 'https://github.com/Menchu02/shopping-cart',
     },
     {
-      id: 4,
+      id: 5,
       title: 'Shopping List',
       description:
-        'App web lista de la compra. Añade, cambia o elimina los productos de tu lista para no olvidarlos.',
+        'App web lista de la compra. Añade, cambia o elimina los productos de tu lista para no olvidarlos (Front-end)',
       imageUrl: photoCard4,
       altText: 'Imagen del Proyecto 4',
       link: 'https://menchu02.github.io/shopping-list/',

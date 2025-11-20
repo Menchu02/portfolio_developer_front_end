@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
-import photo from '../../assets/sobre mi.png';
+import photo from '../../assets/ordenador_cuadrada.jpg';
 import logoHtml from '../../assets/html.png';
 import logoCss from '../../assets/css.png';
 import logoSass from '../../assets/sass.png';
@@ -11,6 +11,8 @@ import logoGit from '../../assets/git.png';
 import logoScrum from '../../assets/scrum.png';
 import logoSpring from '../../assets/springboot.png';
 import logoBootstrap from '../../assets/bootstrap.png';
+import logoLaravel from '../../assets/result_laravel.png';
+
 export default function Sobremi() {
   const cvLink =
     // 'https://drive.google.com/uc?export=download&id=1e7t844fM5UXFh8mI3ZsrnAhmKKSWJZZ7';
@@ -48,6 +50,7 @@ export default function Sobremi() {
               <img src={logoJs} alt='logoJs' />
               <img src={logoJava} alt='logoJava' />
               <img src={logoReact} alt='logoReact' />
+              <img src={logoLaravel} alt='logoLaravel' />
               <img src={logoGit} alt='logoGit' />
               <img src={logoSpring} alt='logoSpring' />
               <img src={logoScrum} alt='logoScrum' />
