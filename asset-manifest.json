@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/portfolio_developer_front_end/static/css/main.64597063.css",
-    "main.js": "/portfolio_developer_front_end/static/js/main.f17e171e.js",
+    "main.js": "/portfolio_developer_front_end/static/js/main.86f30d1a.js",
     "static/js/488.40603ace.chunk.js": "/portfolio_developer_front_end/static/js/488.40603ace.chunk.js",
-    "static/media/sobre mi.png": "/portfolio_developer_front_end/static/media/sobre mi.e39cc46d674f5098615f.png",
+    "static/media/ordenador_cuadrada.jpg": "/portfolio_developer_front_end/static/media/ordenador_cuadrada.afc0d81aee08c3a49428.jpg",
     "static/media/pantalla2.jpg": "/portfolio_developer_front_end/static/media/pantalla2.488d74083379e8382f0b.jpg",
     "static/media/photo-jesus.png": "/portfolio_developer_front_end/static/media/photo-jesus.4e409606234545faffa0.png",
     "static/media/photo-sandalia.png": "/portfolio_developer_front_end/static/media/photo-sandalia.333d6c1c996ba85bfcf4.png",
     "static/media/cardmovieapp.png": "/portfolio_developer_front_end/static/media/cardmovieapp.8187fbc275f00e8edc40.png",
+    "static/media/laravel_foto.jpg": "/portfolio_developer_front_end/static/media/laravel_foto.a426ac826bf24d556441.jpg",
     "static/media/shopping.png": "/portfolio_developer_front_end/static/media/shopping.2a2e390c4eb968ac1f56.png",
     "static/media/logoCarmen.png": "/portfolio_developer_front_end/static/media/logoCarmen.5e281eee3e643aa78130.png",
     "index.html": "/portfolio_developer_front_end/index.html",
     "main.64597063.css.map": "/portfolio_developer_front_end/static/css/main.64597063.css.map",
-    "main.f17e171e.js.map": "/portfolio_developer_front_end/static/js/main.f17e171e.js.map",
+    "main.86f30d1a.js.map": "/portfolio_developer_front_end/static/js/main.86f30d1a.js.map",
     "488.40603ace.chunk.js.map": "/portfolio_developer_front_end/static/js/488.40603ace.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.64597063.css",
-    "static/js/main.f17e171e.js"
+    "static/js/main.86f30d1a.js"
   ]
 }
