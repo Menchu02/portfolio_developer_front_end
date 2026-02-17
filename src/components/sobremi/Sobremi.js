@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
-import photo from '../../assets/ordenador_cuadrada.jpg';
+import photo from '../../assets/cuadrada_mujer.png';
 import logoHtml from '../../assets/html.png';
 import logoCss from '../../assets/css.png';
 import logoSass from '../../assets/sass.png';
