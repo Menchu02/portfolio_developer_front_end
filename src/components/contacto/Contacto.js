@@ -18,8 +18,11 @@ export default function Contacto() {
             <li>
               <FaEnvelope className='me-2' />
               <strong>Correo Electrónico:</strong>{' '}
-              <a href='mailto:menxuuu02@gmail.com' className='custom-link'>
-                menxuuu02@gmail.com
+              <a
+                href='mailto:blancodelgadocarmen3@gmail.com'
+                className='custom-link'
+              >
+                blancodelgadocarmen3@gmail.com
               </a>
             </li>
             <li>

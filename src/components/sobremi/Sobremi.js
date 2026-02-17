@@ -40,7 +40,8 @@ export default function Sobremi() {
               sus posibilidades. Especializada en React JS, estoy siempre
               dispuesta a aprender y crecer en el mundo del desarrollo. Me
               considero trabajadora, adaptaiva y amante de los retos. Disfruto
-              aprendiendo y trabajando con personas.
+              aprendiendo y trabajando con personas.También he estudiado
+              Angular, y Java con Spring Boot.
             </p>
             <p className='lead'>Conocimientos:</p>
             <div className='logos'>
@@ -62,11 +63,11 @@ export default function Sobremi() {
               back-end, aprendiendo Php y su framework Laravel.
             </p>
 
-            <div className='cv-container'>
+            {/* <div className='cv-container'>
               <a href={cvLink} download='CarmenBlancoDelgado.pdf'>
                 <button className='cv-button'>Descargar CV</button>
               </a>
-            </div>
+            </div> */}
           </Col>
         </Row>
       </Container>
