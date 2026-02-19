@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio_developer_front_end/static/css/main.64597063.css",
-    "main.js": "/portfolio_developer_front_end/static/js/main.b555568e.js",
+    "main.css": "/portfolio_developer_front_end/static/css/main.aa9b5d1b.css",
+    "main.js": "/portfolio_developer_front_end/static/js/main.3ce7a436.js",
     "static/js/488.40603ace.chunk.js": "/portfolio_developer_front_end/static/js/488.40603ace.chunk.js",
+    "static/media/bienvenida.png": "/portfolio_developer_front_end/static/media/bienvenida.e8b992651f1a69626dc9.png",
     "static/media/cuadrada_mujer.png": "/portfolio_developer_front_end/static/media/cuadrada_mujer.91df512949a4185f6202.png",
-    "static/media/pantalla2.jpg": "/portfolio_developer_front_end/static/media/pantalla2.488d74083379e8382f0b.jpg",
     "static/media/photo-jesus.png": "/portfolio_developer_front_end/static/media/photo-jesus.4e409606234545faffa0.png",
     "static/media/photo-sandalia.png": "/portfolio_developer_front_end/static/media/photo-sandalia.333d6c1c996ba85bfcf4.png",
     "static/media/cardmovieapp.png": "/portfolio_developer_front_end/static/media/cardmovieapp.8187fbc275f00e8edc40.png",
@@ -12,12 +12,12 @@
     "static/media/shopping.png": "/portfolio_developer_front_end/static/media/shopping.2a2e390c4eb968ac1f56.png",
     "static/media/logoCarmen.png": "/portfolio_developer_front_end/static/media/logoCarmen.5e281eee3e643aa78130.png",
     "index.html": "/portfolio_developer_front_end/index.html",
-    "main.64597063.css.map": "/portfolio_developer_front_end/static/css/main.64597063.css.map",
-    "main.b555568e.js.map": "/portfolio_developer_front_end/static/js/main.b555568e.js.map",
+    "main.aa9b5d1b.css.map": "/portfolio_developer_front_end/static/css/main.aa9b5d1b.css.map",
+    "main.3ce7a436.js.map": "/portfolio_developer_front_end/static/js/main.3ce7a436.js.map",
     "488.40603ace.chunk.js.map": "/portfolio_developer_front_end/static/js/488.40603ace.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.64597063.css",
-    "static/js/main.b555568e.js"
+    "static/css/main.aa9b5d1b.css",
+    "static/js/main.3ce7a436.js"
   ]
 }
