@@ -1,113 +1,129 @@
 import React from 'react';
-import { Card, Row, Col, Button } from 'react-bootstrap';
+import { Card, Row, Col } from 'react-bootstrap';
 import photoCard1 from '../../assets/cardmovieapp.png';
 import photoCard2 from '../../assets/photo-jesus.png';
 import photoCard3 from '../../assets/photo-sandalia.png';
 import photoCard4 from '../../assets/shopping.png';
-import logoGithub from '../../assets/github.png';
 import photoCard5 from '../../assets/laravel_foto.jpg';
 
 export default function Portfolio() {
   const projects = [
     {
       id: 1,
-      title: 'Porfolio fotografía',
+      title: 'Portfolio fotografía',
       description:
-        'Sitio web de fotografía pensado para destacar la obra del artista, con galerías dinámicas (Front-end)',
+        'Sitio web de fotografía para destacar la obra del artista, con galerías dinámicas.',
+      tags: ['Front-end', 'Responsive'],
       imageUrl: photoCard2,
-      altText: 'Imagen del Proyecto 1',
+      altText: 'Portfolio fotografía',
       link: 'https://jesuscollgallardo.com',
-      logo: logoGithub,
       linkGithub: 'https://github.com/Menchu02/Photography-web',
     },
     {
       id: 2,
       title: 'Movie App',
       description:
-        'App web de gestión de películas consumiendo Api. Crea, añade, edita y elimina películas (Front-end)',
+        'App web de películas consumiendo API: crear, editar y eliminar contenido.',
+      tags: ['Front-end', 'API'],
       imageUrl: photoCard1,
-      altText: 'Imagen del Proyecto 2',
+      altText: 'Movie App',
       link: 'https://menchu02.github.io/movie-app-main/',
-      logo: logoGithub,
       linkGithub: 'https://github.com/Menchu02/movie-app-main',
     },
     {
       id: 3,
-      title: 'Laravel Crud',
+      title: 'Laravel CRUD',
       description:
-        'CRUD de Laravel,filtrar por título y comprar mediante email.Genera reunión GoogleMeeting (Back-end)',
+        'CRUD con filtros, compra vía email y generación de reunión (Google Meet).',
+      tags: ['Back-end', 'Laravel'],
       imageUrl: photoCard5,
-      altText: 'Imagen del Proyecto 3',
-      link: '',
-      logo: logoGithub,
+      altText: 'Laravel CRUD',
+      link: '', // si no hay live, lo ocultamos
       linkGithub: 'https://github.com/Menchu02/laravel-crud-posts',
     },
-
     {
       id: 4,
       title: 'Shopping Cart',
       description:
-        'Carrito de compras para tienda online. Navega, añade a tu carrito y gestiona tus compras (Front-end)',
+        'Carrito de compras para tienda online: añade productos y gestiona cantidades.',
+      tags: ['Front-end', 'Estado'],
       imageUrl: photoCard3,
-      altText: 'Imagen del Proyecto 3',
+      altText: 'Shopping Cart',
       link: 'https://menchu02.github.io/shopping-cart/',
-      logo: logoGithub,
       linkGithub: 'https://github.com/Menchu02/shopping-cart',
     },
     {
       id: 5,
       title: 'Shopping List',
       description:
-        'App web lista de la compra. Añade, cambia o elimina los productos de tu lista para no olvidarlos (Front-end)',
+        'Lista de la compra: añade, edita y elimina productos de forma rápida.',
+      tags: ['Front-end', 'CRUD'],
       imageUrl: photoCard4,
-      altText: 'Imagen del Proyecto 4',
+      altText: 'Shopping List',
       link: 'https://menchu02.github.io/shopping-list/',
-      logo: logoGithub,
       linkGithub: 'https://github.com/Menchu02/shopping-list',
     },
   ];
 
   return (
-    <div>
-      <h1 className='header-portfolio'>Mis proyectos:</h1>
-      <Row xs={1} sm={2} md={3} lg={4} className='g-4 portfolio-row'>
-        {projects.map((project) => (
-          <Col key={project.id} className='d-flex justify-content-center'>
-            <Card className='card'>
-              <Card.Img
-                className='card-img'
-                variant='top'
-                src={project.imageUrl}
-                alt={project.altText}
-              />
-              <Card.Body className='card-body'>
-                <Card.Title className='card-title'>{project.title}</Card.Title>
-                <Card.Text className='card-text'>
-                  {project.description}
-                </Card.Text>
-                <div className='button-container'>
-                  <Button
-                    className='card-button'
-                    variant='primary'
-                    href={project.link}
-                    target='_blank'
-                  >
-                    Ver
-                  </Button>
-                  <Button
-                    className='card-button'
-                    variant='primary'
-                    href={project.linkGithub}
-                    target='_blank'
-                  >
-                    Github
-                  </Button>
+    <section id='portfolio' className='section section--dark'>
+      <div className='panel'>
+        <Row xs={1} md={2} lg={3} className='g-4'>
+          {projects.map((p) => (
+            <Col key={p.id}>
+              <Card className='project-card h-100'>
+                <div className='project-media'>
+                  <img
+                    className='project-img'
+                    src={p.imageUrl}
+                    alt={p.altText}
+                  />
                 </div>
-              </Card.Body>
-            </Card>
-          </Col>
-        ))}
-      </Row>
-    </div>
+
+                <Card.Body className='project-body'>
+                  <div className='project-top'>
+                    <Card.Title className='project-title'>{p.title}</Card.Title>
+
+                    <div className='project-tags'>
+                      {p.tags?.map((t) => (
+                        <span key={t} className='project-tag'>
+                          {t}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+
+                  <Card.Text className='project-desc'>
+                    {p.description}
+                  </Card.Text>
+
+                  <div className='project-actions'>
+                    {p.link ? (
+                      <a
+                        className='project-btn'
+                        href={p.link}
+                        target='_blank'
+                        rel='noreferrer'
+                      >
+                        Live →
+                      </a>
+                    ) : null}
+
+                    <a
+                      className='project-btn project-btn--ghost'
+                      href={p.linkGithub}
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      GitHub →
+                    </a>
+                  </div>
+                </Card.Body>
+              </Card>
+            </Col>
+          ))}
+        </Row>
+      </div>
+    </section>
   );
 }

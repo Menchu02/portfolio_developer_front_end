@@ -1,29 +1,12 @@
 import Typewriter from 'typewriter-effect';
+import wellcome_photo from '../../assets/bienvenida.png';
 
 export default function Header() {
-  // const [cont, setCont] = useState(0);
-  // const [mensaje, setMensaje] = useState(true);
-  // const [user, setUser] = useState([]);
-
-  // useEffect(() => {
-  //   fetch('https://jsonplaceholder.typicode.com/users')
-  //     .then((response) => response.json())
-  //     .then((data) => setUser(data))
-  //     .catch((error) => console.log('error', error));
-  // });
-  // let sumar = () => {
-  //   setCont(cont + 1);
-  // };
-
-  // let restar = () => {
-  //   setCont(cont - 1);
-  // };
-
-  // let adeu = () => {
-  //   setMensaje(!mensaje);
-  // };
   return (
-    <div className='header-wraper'>
+    <div
+      className='header-wraper'
+      style={{ backgroundImage: `url(${wellcome_photo})` }}
+    >
       <div className='main-info'>
         <h1 className='header-h1'>
           <Typewriter

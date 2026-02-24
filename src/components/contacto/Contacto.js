@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import {
   FaEnvelope,
   FaPhone,
@@ -10,57 +10,75 @@ import {
 
 export default function Contacto() {
   return (
-    <Container className='mt-5 contacto-container container'>
-      <Row className='justify-content-center'>
-        <Col md={6} className='text-center'>
-          <h2>Contáctame:</h2>
-          <ul className='list-unstyled mt-4 contacto-lista'>
-            <li>
-              <FaEnvelope className='me-2' />
-              <strong>Correo Electrónico:</strong>{' '}
-              <a
-                href='mailto:blancodelgadocarmen3@gmail.com'
-                className='custom-link'
-              >
-                blancodelgadocarmen3@gmail.com
-              </a>
-            </li>
-            <li>
-              <FaPhone className='me-2' />
-              <strong>Teléfono:</strong>{' '}
-              <a href='tel:+34699037483' className='custom-link'>
-                +34 699 037 483
-              </a>
-            </li>
-            <li>
-              <a
-                href='https://www.linkedin.com/in/carmen-blanco-delgado-892711233/'
-                target='_blank'
-                rel='noopener noreferrer'
-                className='custom-link'
-              >
-                <FaLinkedin className='me-2' />
-                <strong>LinkedIn:</strong>{' '}
-              </a>
-            </li>
-            <li>
-              <a
-                href='https://github.com/Menchu02'
-                target='_blank'
-                rel='noopener noreferrer'
-                className='custom-link'
-              >
-                <FaGithub className='me-2' />
-                <strong>GitHub:</strong>{' '}
-              </a>
-            </li>
-            <li>
-              <FaMapMarkerAlt className='me-2' />
-              <strong>Ubicación:</strong> Barcelona
-            </li>
-          </ul>
-        </Col>
-      </Row>
-    </Container>
+    <section id='contacto' className='section section--dark'>
+      <div className='panel'>
+        <Row className='justify-content-center'>
+          <Col md={8}>
+            <ul className='contact-list'>
+              <li>
+                <FaEnvelope className='contact-icon' />
+                <div>
+                  <span className='contact-label'>Correo electrónico</span>
+                  <a
+                    href='mailto:blancodelgadocarmen3@gmail.com'
+                    className='contact-link'
+                  >
+                    blancodelgadocarmen3@gmail.com
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <FaPhone className='contact-icon' />
+                <div>
+                  <span className='contact-label'>Teléfono</span>
+                  <a href='tel:+34699037483' className='contact-link'>
+                    +34 699 037 483
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <FaLinkedin className='contact-icon' />
+                <div>
+                  <span className='contact-label'>LinkedIn</span>
+                  <a
+                    href='https://www.linkedin.com/in/carmen-blanco-delgado-892711233/'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className='contact-link'
+                  >
+                    Ver perfil →
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <FaGithub className='contact-icon' />
+                <div>
+                  <span className='contact-label'>GitHub</span>
+                  <a
+                    href='https://github.com/Menchu02'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className='contact-link'
+                  >
+                    Ver repositorio →
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <FaMapMarkerAlt className='contact-icon' />
+                <div>
+                  <span className='contact-label'>Ubicación</span>
+                  <span>Barcelona</span>
+                </div>
+              </li>
+            </ul>
+          </Col>
+        </Row>
+      </div>
+    </section>
   );
 }
