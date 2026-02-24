@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio_developer_front_end/static/css/main.f494fcaf.css",
-    "main.js": "/portfolio_developer_front_end/static/js/main.28f869f9.js",
+    "main.js": "/portfolio_developer_front_end/static/js/main.edb9a172.js",
     "static/js/488.40603ace.chunk.js": "/portfolio_developer_front_end/static/js/488.40603ace.chunk.js",
     "static/media/bienvenida.png": "/portfolio_developer_front_end/static/media/bienvenida.e8b992651f1a69626dc9.png",
     "static/media/cuadrada_mujer.png": "/portfolio_developer_front_end/static/media/cuadrada_mujer.91df512949a4185f6202.png",
+    "static/media/portfolio2.png": "/portfolio_developer_front_end/static/media/portfolio2.408db24c0e7485e49ef1.png",
     "static/media/photo-jesus.png": "/portfolio_developer_front_end/static/media/photo-jesus.4e409606234545faffa0.png",
     "static/media/photo-sandalia.png": "/portfolio_developer_front_end/static/media/photo-sandalia.333d6c1c996ba85bfcf4.png",
     "static/media/cardmovieapp.png": "/portfolio_developer_front_end/static/media/cardmovieapp.8187fbc275f00e8edc40.png",
@@ -13,11 +14,11 @@
     "static/media/logoCarmen.png": "/portfolio_developer_front_end/static/media/logoCarmen.5e281eee3e643aa78130.png",
     "index.html": "/portfolio_developer_front_end/index.html",
     "main.f494fcaf.css.map": "/portfolio_developer_front_end/static/css/main.f494fcaf.css.map",
-    "main.28f869f9.js.map": "/portfolio_developer_front_end/static/js/main.28f869f9.js.map",
+    "main.edb9a172.js.map": "/portfolio_developer_front_end/static/js/main.edb9a172.js.map",
     "488.40603ace.chunk.js.map": "/portfolio_developer_front_end/static/js/488.40603ace.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f494fcaf.css",
-    "static/js/main.28f869f9.js"
+    "static/js/main.edb9a172.js"
   ]
 }
