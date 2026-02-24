@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio_developer_front_end/static/css/main.f494fcaf.css",
-    "main.js": "/portfolio_developer_front_end/static/js/main.edb9a172.js",
+    "main.js": "/portfolio_developer_front_end/static/js/main.f689bfb7.js",
     "static/js/488.40603ace.chunk.js": "/portfolio_developer_front_end/static/js/488.40603ace.chunk.js",
     "static/media/bienvenida.png": "/portfolio_developer_front_end/static/media/bienvenida.e8b992651f1a69626dc9.png",
     "static/media/cuadrada_mujer.png": "/portfolio_developer_front_end/static/media/cuadrada_mujer.91df512949a4185f6202.png",
@@ -14,11 +14,11 @@
     "static/media/logoCarmen.png": "/portfolio_developer_front_end/static/media/logoCarmen.5e281eee3e643aa78130.png",
     "index.html": "/portfolio_developer_front_end/index.html",
     "main.f494fcaf.css.map": "/portfolio_developer_front_end/static/css/main.f494fcaf.css.map",
-    "main.edb9a172.js.map": "/portfolio_developer_front_end/static/js/main.edb9a172.js.map",
+    "main.f689bfb7.js.map": "/portfolio_developer_front_end/static/js/main.f689bfb7.js.map",
     "488.40603ace.chunk.js.map": "/portfolio_developer_front_end/static/js/488.40603ace.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f494fcaf.css",
-    "static/js/main.edb9a172.js"
+    "static/js/main.f689bfb7.js"
   ]
 }
