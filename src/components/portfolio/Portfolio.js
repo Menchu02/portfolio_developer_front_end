@@ -126,7 +126,7 @@ export default function Portfolio() {
                       target='_blank'
                       rel='noreferrer'
                     >
-                      GitHub →
+                      GitHub
                     </a>
                   </div>
                 </Card.Body>

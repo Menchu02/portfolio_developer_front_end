@@ -47,9 +47,7 @@ export default function Contacto() {
                     target='_blank'
                     rel='noopener noreferrer'
                     className='contact-link'
-                  >
-                    Ver perfil →
-                  </a>
+                  ></a>
                 </div>
               </li>
 
@@ -62,9 +60,7 @@ export default function Contacto() {
                     target='_blank'
                     rel='noopener noreferrer'
                     className='contact-link'
-                  >
-                    Ver repositorio →
-                  </a>
+                  ></a>
                 </div>
               </li>
 

@@ -37,12 +37,11 @@ export default function Sobremi() {
               desarrolladora Full-stack con especial enfoque en el desarrollo
               Front-end con React. Me gusta darle forma y color a las ideas.
               Aunque mi base es el front-end, actualmente estoy profundizando en
-              el back-end para ampliar mi visión técnica y consolidar mi perfil
-              Full-stack. Me considero trabajadora, adaptable y amante de los
-              retos. Disfruto trabajando en equipo y valoro la comunicación
-              clara dentro de los proyectos. A nivel técnico, he trabajado con
-              React, JavaScript, Bootstrap y Sass en el Front-end, así como con
-              Java (Spring Boot) y Laravel en el Back-end.
+              el back-end para consolidar mi perfil Full-stack. Me considero
+              trabajadora, adaptativa y amante de los retos. Disfruto trabajando
+              en equipo y valoro la comunicación. A nivel técnico, he trabajado
+              con React, JavaScript, Bootstrap y Sass en el Front-end, así como
+              con Java (Spring Boot) y Laravel en el Back-end.
             </p>
 
             <p className='about-subtitle'>Conocimientos</p>
@@ -66,11 +65,11 @@ export default function Sobremi() {
               back-end, profundizando en PHP y su framework Laravel, y
               formándome en TypeScript para fortalecer mis proyectos en React.
             </p>
-            <div className='cv-container'>
+            {/* <div className='cv-container'>
               <a href={cvLink} download='CarmenBlancoDelgado.pdf'>
                 <button className='cv-button'>Descargar CV</button>
               </a>
-            </div>
+            </div> */}
           </Col>
         </Row>
       </div>
