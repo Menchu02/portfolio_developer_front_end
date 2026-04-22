@@ -41,26 +41,28 @@ export default function Contacto() {
               <li>
                 <FaLinkedin className='contact-icon' />
                 <div>
-                  <span className='contact-label'>LinkedIn</span>
                   <a
                     href='https://www.linkedin.com/in/carmen-blanco-delgado-892711233/'
                     target='_blank'
                     rel='noopener noreferrer'
                     className='contact-link'
-                  ></a>
+                  >
+                    Linkedin
+                  </a>
                 </div>
               </li>
 
               <li>
                 <FaGithub className='contact-icon' />
                 <div>
-                  <span className='contact-label'>GitHub</span>
                   <a
                     href='https://github.com/Menchu02'
                     target='_blank'
                     rel='noopener noreferrer'
                     className='contact-link'
-                  ></a>
+                  >
+                    GitHub
+                  </a>
                 </div>
               </li>
 
