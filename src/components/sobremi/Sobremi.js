@@ -34,14 +34,19 @@ export default function Sobremi() {
           <Col md={8}>
             <p className='about-text'>
               <span className='span_sobremi'>¡Hola!</span> Soy Carmen Blanco,
-              desarrolladora Full-stack con especial enfoque en el desarrollo
-              Front-end con React. Me gusta darle forma y color a las ideas.
-              Aunque mi base es el front-end, actualmente estoy profundizando en
-              el back-end para consolidar mi perfil Full-stack. Me considero
-              trabajadora, adaptativa y amante de los retos. Disfruto trabajando
-              en equipo y valoro la comunicación. A nivel técnico, he trabajado
-              con React, JavaScript, Bootstrap y Sass en el Front-end, así como
-              con Java (Spring Boot) y Laravel en el Back-end.
+              desarrolladora Full-stack con enfoque en el desarrollo Frontend,
+              principalmente con React. Me gusta dar forma y color a través del
+              código. He trabajado en proyectos reales desarrollando
+              aplicaciones web y plataformas de gestión, colaborando con equipos
+              backend y aplicando metodologías ágiles como Scrum. Actualmente
+              estoy ampliando mis conocimientos en desarrollo frontend y móvil,
+              formándome en desarrollo de aplicaciones híbridas (Angular,
+              TypeScript e Ionic) y trabajando en la creación de aplicaciones
+              web y mobile (PWA).A nivel técnico, he trabajado con React,
+              JavaScript, Bootstrap y Sass en el frontend, así como con Laravel
+              y Java (Spring Boot) en backend. Me interesa seguir creciendo como
+              desarrolladora y adaptarme a nuevas tecnologías, incluyendo el uso
+              de herramientas de IA en el desarrollo.
             </p>
 
             <p className='about-subtitle'>Conocimientos</p>
@@ -61,9 +66,9 @@ export default function Sobremi() {
             </div>
 
             <p className='about-text'>
-              Actualmente estoy ampliando mis conocimientos en el desarrollo
-              back-end, profundizando en PHP y su framework Laravel, y
-              formándome en TypeScript para fortalecer mis proyectos en React.
+              Actualmente estoy ampliando mis conocimientos, cursando formación
+              en desarrollo de aplicaciones híbridas (Angular, TypeScript e
+              Ionic).
             </p>
             {/* <div className='cv-container'>
               <a href={cvLink} download='CarmenBlancoDelgado.pdf'>
